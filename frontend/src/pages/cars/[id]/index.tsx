@@ -92,7 +92,10 @@ export default function CarsDetailPage() {
                     <li className="body-2-500">{targerCarData?.year}</li>
                     <li className="body-2-500">{targerCarData?.miles} KM</li>
                   </ul>
-                  <span className="body-1-600">R$ {targerCarData?.price}</span>
+                  <span className="body-1-600">R$ {targerCarData?.price.toLocaleString("pt-BR", {
+         minimumFractionDigits: 2,
+         maximumFractionDigits: 2,
+        })}</span>
                 </div>
                 <a
                   color="primary"
