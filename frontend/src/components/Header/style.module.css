@@ -5,9 +5,11 @@
 
     position: relative;
 
-    padding: min(5%, 24px);
+    padding: min(5%, 15px);
     
     font-family: "Roboto", sans-serif;
+
+    background-color: white;
 }
 
 .page_header_menu {
@@ -19,12 +21,11 @@
     right: 50%;
     transform: translate(50%);
     border-top: solid 1px rgba(0, 0, 0, 0.267);
+    background-color: white;
 
     display: none;
     flex-direction: column;
     align-items: center;
-
-    background-color: white;
 
     padding: 16px;
 }
